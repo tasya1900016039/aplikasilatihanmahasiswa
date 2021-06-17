@@ -1,0 +1,83 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v12\node.exe C:\Users\abdul\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gh-pages
+
+PATH: 
+  C:\Users\abdul\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\abdul\AppData\Roaming\npm;C:\Users\abdul\AppData\Roaming\Composer\vendor\bin;;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\php\php-5.4.9-nts-Win32-VC9-x86;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\nodejs\node-v12;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\ngrok;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\putty;C:\laragon\bin\cmder\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\abdul\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\pip;C:\WINDOWS\System32\OpenSSH\;C:\Users\abdul\AppData\Local\Programs\Python\Python38-32;C:\Users\abdul\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\abdul\AppData\Local\Microsoft\WindowsApps;C:\Users\abdul\AppData\Local\Programs\Microsoft VS Code\bin;E:\SERVER\laragon\bin\php\php-7.3;C:\adb;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\kubectl;C:\Program Files\helm\windows-amd64;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Git LFS;C:\Program Files\Tesseract-OCR;C:\Users\abdul\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\abdul\AppData\Roaming\Composer\vendor\bin;C:\Users\abdul\AppData\Roaming\npm;E:\SERVER\laragon\bin;E:\SERVER\laragon\bin\composer;E:\SERVER\laragon\bin\laragon\utils;E:\SERVER\laragon\bin\mysql\mysql-5.5\bin;E:\SERVER\laragon\bin\nginx\nginx-1.14.0;E:\SERVER\laragon\bin\notepad++;E:\SERVER\laragon\bin\php\php-5.4.9-nts-Win32-VC9-x86;E:\SERVER\laragon\bin\python\python-3.6.1;E:\SERVER\laragon\bin\python\python-3.6.1\Scripts;C:\Users\abdul\AppData\Local\Programs\Python\Python38-32;C:\Users\abdul\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\abdul\AppData\Local\Microsoft\WindowsApps;C:\Users\abdul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\IBM\Cloud\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\heroku\bin;C:\Program Files\Tesseract-OCR;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/date-fns/-/date-fns-2.22.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\abdul\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:288:20)
+      at ClientRequest.emit (events.js:200:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:675:40)
+      at Object.onceWrapper (events.js:288:20)
+      at TLSSocket.emit (events.js:200:13)
+      at TLSSocket.Socket._onTimeout (net.js:434:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "homepage": "http://tasya1900016039.github.io/aplikasilatihanmahasiswa",
+    "name": "aplikasilatihanmahasisw",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@testing-library/user-event": "^12.8.3",
+      "axios": "^0.21.1",
+      "bootstrap": "^4.6.0",
+      "path": "^0.12.7",
+      "react": "^17.0.1",
+      "react-datepicker": "^3.6.0",
+      "react-dom": "^17.0.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.3",
+      "web-vitals": "^1.1.1"
+    },
+    "scripts": {
+  	"predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "gh-pages": "^3.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
