@@ -78,7 +78,7 @@ export default class CreateExercise extends Component {
       .post("https://aqueous-spire-19323.herokuapp.com/exercises/add", exercise)
       .then((res) => console.log(res.data));
 
-    window.location = "/";
+    window.location = "https://tasya1900016039.github.io/aplikasilatihanmahasiswa/#/";
   }
 
   render() {
